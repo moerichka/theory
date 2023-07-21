@@ -1,0 +1,45 @@
+.counter {
+    margin: 40px;
+    padding: 30px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: hsla(260, 60%, 70%, 1);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.value {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* crtl + d чтобы выделить следующий аналогичный текст выделенному */
+/* стрелочка вправо */
+/* ctrl + shift + стрелочка вправо, чтобы выделить все слово */
+/* ctrl + c */
+/* нужно добавить столько точек, сколько было выбрано классов */
+/* распараллелить курсор на эти точки: shift + нажать колесико мыши | alt + shift + стрелочка вниз либо вверх */
+/* ctrl + v */

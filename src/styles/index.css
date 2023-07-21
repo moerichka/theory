@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: hsla(270, 60%, 75%, 1);
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: 1px solid red;
+}

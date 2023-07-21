@@ -1,0 +1,50 @@
+.postCreator {
+    margin: 40px;
+    padding: 30px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: hsla(200, 60%, 70%, 1);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.labelText {}
+
+.input {
+    padding: 10px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+
+/* alt + shift + стрелочка вниз */
+/* ctrl + enter */
+/* win + v */
